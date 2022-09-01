@@ -1,0 +1,80 @@
+<html>
+<head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="..\sowjanya\all.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <header class="header">
+	<a href="../sowjanya/home.html"> <img align="left" src="..\sowjanya\GUVI.jpg" width="300" height="100"></a><br>
+
+    <nav class="nav-items">
+      <a href="../sowjanya/home.html">Home</a>
+      <a href="../sowjanya/home.html">About</a>
+      <a href="../sowjanya/home.html">Contact</a>
+	  <a href="..\sowjanya\login.html">Login</a>
+      <a href="..\sowjanya\signup.html">Signup</a>
+    </nav>
+  </header>
+<main>
+<div class="intro">
+<div class="forms_s">
+<form name="signupform" action="signup.php" method="post" onSubmit="return createUser();">
+<h2 align="center"color="black">sign up</h2>
+<label>Firstname </label>
+<input required type="text" name="firstname" size="15"/> <br> <br>
+<label> Lastname: </label>
+<input required type="text" name="lastname" size="15"/> <br> <br>
+<label> Gender: </label><br>
+<input type="radio" name="male"/> male <br>
+<input type="radio" name="female"/> female <br>
+<input type="radio" name="other"/>other
+<br>
+<br>
+
+<label>
+mobile :
+</label>
+<input type="text" name="contry code=" value="+91" size="2"/>
+<input type="text" name="phone" size="10"/> <br> <br>
+UserID:
+<input required type="text" id="uid" name="uid"/> <br>
+<br>
+Password:
+<input required type="Password" id="pass" name="pass"><br>
+<br>
+confirm password:
+<input required type="Password" id="repass" name="repass"><br><br>
+
+<input type="submit" value="signup"/>&nbsp   
+<input type="button" value="cancel" />&nbsp  <br><br> 
+
+<span class="psw">Already have an account? <a href="..\sowjanya\login.html">Login from here</a></span>
+</form>
+</div>
+</div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; 2022 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+      <a href="../sowjanya/home.html">Home</a>
+      <a href="../sowjanya/home.html">About</a>
+      <a href="../sowjanya/home.html">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="https://www.facebook.com/guviofficial" target="_blank">Facebook</a>
+        <a href="https://twitter.com/guviofficial" target="_blank">twitter</a>
+        <a href="https://www.instagram.com/guviofficial/" target="_blank">instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
